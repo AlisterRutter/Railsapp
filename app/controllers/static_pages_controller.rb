@@ -10,5 +10,8 @@ class StaticPagesController < ApplicationController
 
   def helloworld
   end
+
+  def aboutme
+  end
   
 end
