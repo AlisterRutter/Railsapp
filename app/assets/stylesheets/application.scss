@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+ // Custom bootstrap variables must be set or imported *before* bootstrap.
+ @import "bootstrap";
+ .main {
+   padding-top: 20px;
+ }
+
+body {
+  background-color: #000000
+}
+
+h1 {font-size: 65px;
+  color: #ffffff;
+}
+
+.mybuttononmypage {
+  background-color: red;
+}
